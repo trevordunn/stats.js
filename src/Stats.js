@@ -171,6 +171,24 @@ var Stats = function () {
 
 			startTime = this.end();
 
+		},
+
+		getFPS: function () {
+
+			return fps;
+
+		},
+
+		getMS: function () {
+
+			return ms;
+
+		},
+
+		getMEM: function () {
+
+			return mem;
+
 		}
 
 	};

@@ -38,6 +38,10 @@ var update = function () {
 
 	stats.end();
 
+	var fps = stats.getFPS();
+	var ms = stats.getMS();
+	var mem = stats.getMEM();
+
 	requestAnimationFrame( update );
 
 };
